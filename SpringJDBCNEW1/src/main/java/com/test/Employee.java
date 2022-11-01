@@ -6,7 +6,8 @@ public class Employee {
 	private float salary;
 	
 	
-	public Employee() {
+	public Employee() 
+	{
 		
 	}
 	public Employee(int id, String name, float salary) {
@@ -32,7 +33,4 @@ public class Employee {
 	}
 	public void setSalary(float salary) {
 		this.salary = salary;
-	}  
-	
-
-}
+	}  }
