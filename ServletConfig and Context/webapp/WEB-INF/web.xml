@@ -15,12 +15,12 @@
     </servlet>
     <context-param>
     <param-name>city</param-name>
-    <param-value>Bangalore</param-value>
+    <param-value>Madanapalli</param-value>
         
     </context-param>
     <context-param>
     <param-name>state</param-name>
-    <param-value>Karnataka</param-value>
+    <param-value>AP</param-value>
         
     </context-param>
     
