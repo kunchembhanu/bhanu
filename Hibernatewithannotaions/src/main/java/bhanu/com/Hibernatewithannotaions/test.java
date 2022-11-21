@@ -8,8 +8,8 @@ import org.hibernate.boot.MetadataSources;
 import org.hibernate.boot.registry.StandardServiceRegistry;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 
-public class test {
-
+public class test 
+{
 	public static void main(String[] args) {
 		StandardServiceRegistry ssr = new StandardServiceRegistryBuilder().configure("hibernate.cfg.xml").build();  
 	    Metadata meta = new MetadataSources(ssr).getMetadataBuilder().build();  
@@ -20,18 +20,15 @@ public class test {
 	            
 	    Student s1=new Student();    
 	    s1.setId(101);    
-	    s1.setFirstname("bhavana");    
+	    s1.setFirstname("harshi");    
 	    s1.setLastname("bhavya");    
 	        
-	    session.save(s1);  
+	    session.delete(s1);  
 	    t.commit();  
 	    System.out.println("Fine.");    
 	    factory.close();  
 	    session.close();    
 	        
-	}    
-	  
-
-	}
+	}   }
 
 

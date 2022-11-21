@@ -11,11 +11,11 @@ public class HelloController {
 		return "login";
 	}
 	
-	@RequestMapping("/register")
+	/*@RequestMapping("/register")
 	public String userReg()
 	{
 		return "register";
-	}
+	}*/
 }
 
 
