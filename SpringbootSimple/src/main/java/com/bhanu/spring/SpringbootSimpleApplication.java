@@ -4,10 +4,11 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringbootBhanuApplication {
+public class SpringbootSimpleApplication 
+{
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringbootBhanuApplication.class, args);
+		SpringApplication.run(SpringbootSimpleApplication.class, args);
 		System.out.println("Fine.");
 	}
 
